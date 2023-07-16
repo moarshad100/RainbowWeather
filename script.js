@@ -1,6 +1,6 @@
 console.log("hello world");
 
-var API_KEY = "76a61f4a882e8a810941a75d3a40de94";
+var API_KEY = "";
 var fetchWeather_btn = document.getElementById('weather-btn');
 var fetchGeo_btn = document.getElementById('geo-btn');
 var weatherSearch = document.getElementById('search-weather');
