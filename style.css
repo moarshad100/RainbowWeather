@@ -2,8 +2,22 @@ header
 {
 	font-size: 50px;
 	background-color: lightblue;
-	text-align: center;
+	text-align: center;	
+}
 
+#weather-btn
+{
+	width:40px;
+	height: 30px;
+	background-color: blue;
+}
 
+#geo-btn
+{
 	
+	color: white;
+	font-style: strong;
+	background-color: red;
+	margin-left: 10px;
+
 }
