@@ -21,3 +21,29 @@ header
 	margin-left: 10px;
 
 }
+.current-weather{
+	display: !important;
+	border-style: solid;
+	border-color: blue;
+}
+
+
+
+.weather-name{
+	margin-left: 5px;
+	border-style: solid;
+	border-color: gray;
+	background-color: slategrey;
+	font-style: strong;
+	display: grid;
+}
+
+#display_data
+{
+/*	display: flex;*/
+}
+
+.city-ls{
+	color: white;
+	background-color: blue;
+}

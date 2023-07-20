@@ -9,18 +9,29 @@
 <body>
 	<header>Weather Forecast</header>
 	<div style="display: flex;">
-	<button id = "weather-btn" ></button>
+	
 	
 	</div>
-	<span style="display: flex;" id= "weather-forecast" >
-		<section id="search-weather" style="flex: 20%; background-color: lightblue;">
+	<span style="display: flex;background-color: lightblue;" id= "weather-forecast" >
+		<section id="search-weather" style="flex: 20%;">
 			<div>
+				<h2>Search For a City: </h2>
 			<input type="text" placeholder="Enter the city name" id="Search_city"/>
 			<button id = "geo-btn" >search</button>
 			</div>
 
 		</section>
-		<span id="weather-data" style="flex: 80%;background-color: lightgreen;">world</span>
+		<span id="weather-data" style="flex: 80%;">
+
+			<div id= "current_display_data">
+			
+			</div>
+
+			<div id= "display_data">
+				<!-- <h2 style="align-self:start;"></h2> -->
+			
+			</div>
+		</span>
 		
 	</span>
 
