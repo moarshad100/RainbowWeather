@@ -1,5 +1,3 @@
-console.log("hello world");
-
 var API_KEY = "76a61f4a882e8a810941a75d3a40de94";
 var fetchWeather_btn = document.getElementById('weather-btn');
 var fetchGeo_btn = document.getElementById('geo-btn');
@@ -43,9 +41,9 @@ function getGeoApi() {
 									${city.toUpperCase()}
 							</h2>
 							<h3>${data.list[0].dt_txt.substr(0, 10)}</h3>
-                                <p>${"Temperature: " + data.list[0].main.temp}</p>
-                                <p>${"Wind: " + data.list[0].wind.speed}</p>
-                                <p>${"Humidity: " + data.list[0].main.humidity}</p>
+                                <p>${"Temperature: " + data.list[0].main.temp + "K"}</p>
+                                <p>${"Wind: " + data.list[0].wind.speed + "MPH"}</p>
+                                <p>${"Humidity: " + data.list[0].main.humidity + "%"}</p>
                        </div>  
                     `;
 
@@ -62,9 +60,9 @@ function getGeoApi() {
 							                
                             <div class="weather-name pb-2">                            	
                                 <h3>${data.list[i].dt_txt.substr(0, 10)}</h3>
-                                <p>${"Temperature: " + data.list[i].main.temp}</p>
-                                <p>${"Wind: " + data.list[i].wind.speed}</p>
-                                <p>${"Humidity: " + data.list[i].main.humidity}</p>
+                                <p>${"Temperature: " + data.list[i].main.temp + "K"}</p>
+                                <p>${"Wind: " + data.list[i].wind.speed + "MPH"}</p>
+                                <p>${"Humidity: " + data.list[i].main.humidity + "%"}</p>
                             </div>
                         
                     `;
