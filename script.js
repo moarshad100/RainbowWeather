@@ -11,6 +11,7 @@ var Searchcity = document.getElementById("Search_city");
 var currentdataDisp = document.getElementById("currentdisplay_data");
 var dataDisp = document.getElementById("display_data");
 var curdataDisp = document.getElementById("current_display_data");
+var citySelect = document.querySelector(".city-ls");
 
 var createLS = function(){
 	const cityButton = document.createElement("button");
@@ -18,6 +19,7 @@ var createLS = function(){
 	cityButton.setAttribute("class","city-ls")
 	weatherSearch.appendChild(cityButton);
 	localStorage.setItem(cityButton,Searchcity.value );
+
 }
 
 
@@ -83,6 +85,9 @@ function getGeoApi(){
 }
 
 fetchGeo_btn.addEventListener('click',getGeoApi);
+
+
+
 
 
 
